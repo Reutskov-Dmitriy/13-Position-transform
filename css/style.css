@@ -1,0 +1,132 @@
+body{
+	
+	color: #000000;
+	background-color: #ffffff;
+}
+.container{
+	width: 1440px;
+	height: 3080px;
+	border: 1px solid red;
+	margin: auto;
+	
+	
+}
+a{
+	color: #000000;
+}
+h2{
+	font-family: var(--font-family-fo-r);
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: 0.04em;
+   text-transform: uppercase;
+}
+.wrapper{
+	height: 150px ;
+}
+
+header{
+	padding:0px 120px;
+	width: 1440px;
+	height: 80px;
+	border: 1px solid red ;
+	font-size: 22px;
+	line-height: 28px;
+	display: block;
+	position: fixed;
+	
+
+}
+.header-row{
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.header__lang{
+	margin-right: 50px;
+	font-family: var(--font-family-t-sb);
+	line-height: 18px;
+}
+
+.header__nav span{
+	font-family: var(--font-family-st-r);	
+	letter-spacing: 0.03em;
+}
+
+main{
+	font-size: 28px;
+	line-height: 48px;
+	padding: 54px  90px 0px 100px;
+	height: 100%;
+	
+}
+
+.main-row{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.side-bar{
+	display: block;
+	width: 385px;
+	height: 462px;
+		position: fixed;
+}
+.side-bar li{
+	margin-bottom: 70px;
+	border-bottom: 1px solid #BDBDBD;
+	/* identical to box height, or 133% */
+
+
+}
+.chapters{
+	width: 785px;
+	height: 100%;
+	border: 1px solid red ;
+	position: relative;
+	
+	
+	
+	
+}
+.chapters__background{
+	position: fixed;
+	z-index: -2;
+	top: 25%;
+	right: 0;
+	left: 55%;
+	
+}
+section{
+	margin-bottom: 70px;
+}
+
+section p{
+	font-family: var(--font-family-ps-r);
+	margin-top: 40px;
+}
+/* #chapters__react{
+	position: sticky;
+} */
+.chapters span{
+	background-color: #EAEAEA;
+}
+
+.chapters hr{
+	width: 100px;
+	height: 8px;
+	background: #000000;
+	margin-bottom: 20px;
+}
+sup{
+	font-family: var(--font-family-f-r);
+	font-size: 20px;
+line-height: 30px;
+text-transform: none;
+font-weight: 300;
+}
+

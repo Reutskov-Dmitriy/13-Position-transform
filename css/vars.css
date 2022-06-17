@@ -1,0 +1,43 @@
+@font-face {
+	font-family:Staatliches-Regular;
+	src: url(../assets/fonts/AnyConv.com__Staatliches-Regular.woff);
+}
+@font-face {
+	font-family: Tourney-SemiBold;
+	src: url(../assets/fonts/AnyConv.com__Tourney-SemiBold.woff);
+}
+
+@font-face {
+	font-family: FrancoisOne-Regular;
+	src: url(../assets/fonts/AnyConv.com__FrancoisOne-Regular.woff);
+}
+
+@font-face {
+	font-family: Farro-Light;
+	src: url(../assets/fonts/AnyConv.com__Farro-Light.woff);
+}
+
+@font-face {
+	font-family: PTSans-Regular;
+	src: url(../assets/fonts/AnyConv.com__PTSans-Regular.woff);
+}
+
+@font-face {
+	font-family: PTSans-Bold;
+	src: url(../assets/fonts/AnyConv.com__PTSans-Bold.woff);
+}
+
+@font-face {
+	font-family: Hind-Regular;
+	src: url(../assets/fonts/AnyConv.com__Hind-Regular.woff);
+}
+
+:root{
+	--font-family-st-r: Staatliches-Regular, sans-serif;
+	--font-family-t-sb: Tourney-SemiBold, sans-serif;
+	--font-family-fo-r: FrancoisOne-Regular, sans-serif;
+	--font-family-f-r: Farro-Light, sans-serif;
+	--font-family-ps-r: PTSans-Regular, sans-serif;
+	--font-family-ps-b: PTSans-Bold, sans-serif;
+	--font-family-h-r: Hind-Regular, sans-serif;
+}
