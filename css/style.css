@@ -1,12 +1,12 @@
 body{
 	
 	color: #000000;
-	background-color: #ffffff;
+	
 }
 .container{
 	width: 1440px;
-	height: 3080px;
-	border: 1px solid red;
+	height: 3080;
+	border: 1px solid rgb(30, 31, 28);
 	margin: auto;
 	
 	
@@ -21,9 +21,7 @@ h2{
 	letter-spacing: 0.04em;
    text-transform: uppercase;
 }
-.wrapper{
-	height: 150px ;
-}
+
 
 header{
 	padding:0px 120px;
@@ -32,10 +30,19 @@ header{
 	border: 1px solid red ;
 	font-size: 22px;
 	line-height: 28px;
-	display: block;
-	position: fixed;
-	
 
+}
+.wrapper{
+	height: 80px;
+	width: 100%;
+}
+.header-position{
+	/* position: fixed;
+	z-index: 99; */
+	width: 1440px;
+	height: 80px;
+	/* border: 1px solid rgb(133, 142, 238); */
+	
 }
 .header-row{
 	height: 100%;
@@ -66,15 +73,22 @@ main{
 
 .main-row{
 	display: flex;
-	justify-content: space-between;
+	
+	
+	
 }
 
-
+.wrapp{
+	height: 100%;
+	border: 1px solid rgb(0, 255, 51);
+	top: 120px;
+}
 .side-bar{
-	display: block;
 	width: 385px;
 	height: 462px;
-		position: fixed;
+	position: sticky;
+	border: 1px solid rgb(225, 255, 0);
+	top: 120px;
 }
 .side-bar li{
 	margin-bottom: 70px;
@@ -88,17 +102,18 @@ main{
 	height: 100%;
 	border: 1px solid red ;
 	position: relative;
-	
-	
-	
-	
+	top: 150px;
+		
 }
-.chapters__background{
-	position: fixed;
-	z-index: -2;
-	top: 25%;
+.sticky-img{
+	position: sticky;
+	z-index: -1;
+	top: 70px;
 	right: 0;
 	left: 55%;
+}
+.chapters__background{
+	
 	
 }
 section{
@@ -116,7 +131,7 @@ section p{
 	background-color: #EAEAEA;
 }
 
-.chapters hr{
+hr{
 	width: 100px;
 	height: 8px;
 	background: #000000;

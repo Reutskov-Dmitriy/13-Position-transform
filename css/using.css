@@ -1,0 +1,22 @@
+.content{
+	width: 1440px;
+	height: 738px;
+	border: 1px solid red;
+	margin: auto;
+	
+}
+.cards-row{
+	width: 1200px;
+	height: 430px;
+	
+	border: 1px solid red;
+	
+}
+
+.card-icon{
+	width: 270px;
+	height: 180px;
+	border-radius: 8px;
+	border: 1px solid red;
+	display: inline-block;
+}
