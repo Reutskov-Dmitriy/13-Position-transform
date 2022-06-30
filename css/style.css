@@ -1,143 +1,156 @@
-body{
-	
-	color: #000000;
-	
-}
-.container{
-	width: 1440px;
-	height: 3080;
+body {
 
-	margin: auto;
-	
-	
+	color: #000000;
+
 }
-a{
+
+.container {
+	max-width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+a {
 	color: #000000;
 }
-h2{
+
+h2 {
 	font-family: var(--font-family-fo-r);
 	font-size: 36px;
 	line-height: 48px;
 	letter-spacing: 0.04em;
-   text-transform: uppercase;
+	text-transform: uppercase;
 }
 
-
-header{
-	padding:0px 120px;
-	width: 1440px;
+.wrapper {
 	height: 80px;
-	
+	width: 100%;
+}
+
+header {
+	padding: 0px 120px;
+	width: 100%;
+	height: 80px;
 	font-size: 22px;
 	line-height: 28px;
 
 }
-.wrapper{
-	height: 80px;
-	width: 100%;
-}
-.header-position{
+
+
+.header-position {
 	position: fixed;
 	z-index: 99;
-	width: 1440px;
+	width: 100%;
 	height: 80px;
 	background-color: #ffffff;
 	/* border: 1px solid rgb(133, 142, 238); */
-	
+
 }
-.header-row{
+
+.header-row {
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	
+
 }
 
-.header__lang{
+.header__lang {
 	margin-right: 50px;
 	font-family: var(--font-family-t-sb);
 	line-height: 18px;
 }
 
-.header__nav span{
-	font-family: var(--font-family-st-r);	
+.header__nav span {
+	font-family: var(--font-family-st-r);
 	letter-spacing: 0.03em;
 }
 
-main{
+main {
 	font-size: 28px;
 	line-height: 48px;
-	padding: 70px  90px 0px 100px;
-	height: 100%;	
+	padding: 70px 90px 20px 100px;
+	height: 100%;
 }
 
-.main-row{
+.main-row {
 	display: flex;
-	justify-content: space-between;	
+	justify-content: space-between;
+	gap: 30px;
 }
 
-.wrapp{
+.wrapp {
+	flex: 0 1 33%;
 	height: 100%;
 	top: 82px;
 	position: sticky;
 }
-.side-bar{
+
+.side-bar {
 	width: 385px;
 	height: 462px;
-		
+
 }
-.side-bar li{
+
+.side-bar li {
 	margin-bottom: 70px;
 	border-bottom: 1px solid #BDBDBD;
-	/* identical to box height, or 133% */
-
-
 }
-.chapters{
-	width: 785px;
+
+.chapters {
+	width: 100%;
 	height: 100%;
 	position: relative;
 	z-index: 1;
 	top: -760px;
-		
+
 }
 
-.wrapper-img{
+.wrapper-img {
 	position: relative;
-	z-index: 2;
+	z-index: 1;
+	flex: 0 1 67%;
 }
-.sticky-img{
+
+.sticky-img {
 	position: sticky;
+	width: 100%;
+	width: 27.14em;
+	height: 27.14em;
 	z-index: -1;
 	top: 80px;
-	right: 0;
-	left: 55%;
 }
 
-section{
+.chapters__background {
+	position: fixed;
+	object-fit: cover;
+	right: -4em;
+}
+
+section {
 	margin-bottom: 70px;
 }
 
-section p{
+section p {
 	font-family: var(--font-family-ps-r);
 	margin-top: 40px;
 }
 
-.chapters span{
+.chapters span {
 	background-color: #EAEAEA;
 }
 
-hr{
+hr {
 	width: 100px;
 	height: 8px;
 	background: #000000;
 	margin-bottom: 20px;
 }
-sup{
+
+sup {
 	font-family: var(--font-family-f-r);
 	font-size: 20px;
 	line-height: 30px;
 	text-transform: none;
 	font-weight: 300;
 }
-
